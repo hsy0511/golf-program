@@ -573,6 +573,7 @@ ResultSet rs = pstmt.executeQuery();
 </html>
 ```
 # css
+페이지와 알맞게 css를 구성해 줍니다.
 ```css
 @charset "UTF-8";
 
