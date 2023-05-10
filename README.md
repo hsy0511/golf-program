@@ -731,7 +731,7 @@ section에는 반복문을 사용하여 쿼리문에서 값들을 가져와 테�
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/316abed1-b2be-4e02-8791-3039e0221541)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/3093a965-7148-4a5f-aca8-6feb706931fb)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/11307fd8-441c-4568-a8e7-78829dea1d0e)
-![image](https://github.com/hsy0511/golf-program/assets/104752580/61cbcb8a-5340-40b9-9682-cf283b8ce411)
+![image](https://github.com/hsy0511/golf-program/assets/104752580/fca6c533-633a-4f77-84b8-282220bd394c)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/c584021e-dbaa-4117-82d3-33aeb8c1af6f)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/d720d3a3-18c8-4b53-ac86-772823ed5355)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/7ca9a7f1-8561-43f2-8642-cb0d4f05c4cc)
