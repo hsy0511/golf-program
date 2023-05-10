@@ -725,8 +725,8 @@ section에는 반복문을 사용하여 쿼리문에서 값들을 가져와 테�
 }
 ```
 # 결과
-![image](https://github.com/hsy0511/golf-program/assets/104752580/70d38ce1-3445-474d-b281-a04293c66823)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/04f40f0e-c3d1-4df1-85c9-190f5f503b6f)
+![image](https://github.com/hsy0511/golf-program/assets/104752580/70d38ce1-3445-474d-b281-a04293c66823)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/c8152683-c922-46b8-9f1c-a3105b8a69c2)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/316abed1-b2be-4e02-8791-3039e0221541)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/3093a965-7148-4a5f-aca8-6feb706931fb)
