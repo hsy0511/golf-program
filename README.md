@@ -1,5 +1,5 @@
 # golf-program
-# java
+# java (DB연결 코드)
 ```java
 package DB;
 import java.sql.*;
@@ -19,6 +19,8 @@ public static Connection getConnection() throws Exception {
 
 ```
 # DB table
+![image](https://github.com/hsy0511/golf-program/assets/104752580/13cf7623-7bae-4895-933a-69b74ec7509c)
+
 ```sql
 
 create table tbl_teacher_202201 (
@@ -81,6 +83,7 @@ values('202203', '20002', '대구분원', 200000, '400');
 ```
 # sql 쿼리문
 ## 강사조회 페이지
+
 ```sql
 select teacher_code, teacher_name, class_name,
 to_char(class_price,'999,999'),
@@ -100,7 +103,7 @@ from tbl_teacher_202201 t, tbl_member_202201 m, tbl_class_202201 c
 where m.c_no = c.c_no and t.teacher_code = c.teacher_code
 ```
 ## 강사매출현황
-```jsp
+```sql
 select c.teacher_code, t.class_name, t.teacher_name, 
 to_char(sum(c.tuition),'L999,999') 
 from tbl_teacher_202201 t, tbl_class_202201 c 
@@ -110,6 +113,8 @@ order by teacher_code
 ```
 # jsp
 ## 메인 페이지
+![image](https://github.com/hsy0511/golf-program/assets/104752580/8ab3bbc8-02e9-4712-ab60-8860613d8222)
+
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -214,6 +219,8 @@ order by teacher_code
 </html>
 ```
 ## 강사조회 페이지
+![image](https://github.com/hsy0511/golf-program/assets/104752580/3e8400e7-5990-41cf-8fa2-2733fb4d2313)
+
 ```jsp
 <%@ page import="DB.DBConnect" %>
 <%@ page import="java.sql.*" %>
@@ -267,6 +274,8 @@ order by teacher_code
 </html>
 ```
 ## 수강신청 페이지
+![image](https://github.com/hsy0511/golf-program/assets/104752580/0bb69ade-1fd2-4b02-9900-3560d93a2a6f)
+
 ```jsp
 <%@page import="DB.DBConnect"%>
 <%@page import="java.sql.*"%>
@@ -463,6 +472,8 @@ pstmt.executeUpdate();
 </html>
 ```
 ## 회원정보조회 페이지
+![image](https://github.com/hsy0511/golf-program/assets/104752580/abebe7c9-10ef-462e-944c-376dbc2fb2e0)
+
 ```jsp
 <%@ page import="DB.DBConnect"%>
 <%@ page import="java.sql.*"%>
@@ -521,6 +532,8 @@ ResultSet rs = pstmt.executeQuery();
 </html>
 ```
 ## 강사매출현황
+![image](https://github.com/hsy0511/golf-program/assets/104752580/6ae6dfc1-fbee-4326-bcf3-0ba286a440cb)
+
 ```jsp
 <%@ page import="DB.DBConnect"%>
 <%@ page import="java.sql.*"%>
