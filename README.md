@@ -724,7 +724,8 @@ section에는 반복문을 사용하여 쿼리문에서 값들을 가져와 테�
 	padding: 5px 20px;
 }
 ```
-# 결과
+# 실행화면
+![image](https://github.com/hsy0511/golf-program/assets/104752580/4e7b130e-b8db-49ce-84d4-e07b7dbe864f)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/04f40f0e-c3d1-4df1-85c9-190f5f503b6f)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/c8152683-c922-46b8-9f1c-a3105b8a69c2)
 ![image](https://github.com/hsy0511/golf-program/assets/104752580/70d38ce1-3445-474d-b281-a04293c66823)
